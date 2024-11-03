@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Inventory Management</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Inventory Management</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="inventory.html">Inventory</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="inventory-main">
+        <section class="inventory-container">
+            <h2>Current Inventory</h2>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>50</td>
+                        <td>19.99 birr</td>
+                        <td class="inventory-actions">
+                            <button class="edit-button">Edit</button>
+                            <button class="delete-button">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>30</td>
+                        <td>29.99 birr</td>
+                        <td class="inventory-actions">
+                            <button class="edit-button">Edit</button>
+                            <button class="delete-button">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Add more products as needed -->
+                </tbody>
+            </table>
+            <button class="add-product-button">Add New Product</button>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 E-commerce Platform. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
